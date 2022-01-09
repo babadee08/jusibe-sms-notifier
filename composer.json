@@ -1,0 +1,29 @@
+{
+    "name": "babadee08/jusibe-sms-notifier",
+    "type": "symfony-notifier-bridge",
+    "description": "Symfony JusibeSMS Notifier Bridge",
+    "keywords": ["sms", "jusibeSms", "notifier"],
+    "license": "MIT",
+    "require": {
+        "php": ">=7.2.5",
+        "symfony/http-client": "^4.3|^5.0|^6.0",
+        "symfony/notifier": "^5.3|^6.0",
+        "symfony/event-dispatcher": "^5.3|^6.0"
+    },
+    "autoload": {
+        "psr-4": { "Symfony\\Component\\Notifier\\Bridge\\JusibeSms\\": "" },
+        "exclude-from-classmap": [
+            "/Tests/"
+        ]
+    },
+    "authors": [
+        {
+            "name": "Damilare",
+            "email": "babadee08@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require-dev": {
+        "phpunit/phpunit": "^9"
+    }
+}
