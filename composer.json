@@ -3,6 +3,7 @@
     "type": "symfony-notifier-bridge",
     "description": "Symfony JusibeSMS Notifier Bridge",
     "keywords": ["sms", "jusibeSms", "notifier"],
+    "homepage": "https://babadee08.github.io",
     "license": "MIT",
     "require": {
         "php": ">=7.2.5",

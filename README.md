@@ -1,4 +1,4 @@
-AllMySms Notifier
+JusibeSms Notifier
 =================
 
 Provides [JusibeSms](https://.jusibe.com/) integration for Symfony Notifier.
@@ -11,8 +11,8 @@ JUSIBE_DSN=jusibe://apikey:apiToken@default?from=JSBMESSAGE
 ```
 
 where:
-- `apikey` is your user ID
-- `apiToken` is your AllMySms API key
+- `apikey` is your Jusibe Public Key
+- `apiToken` is your Jusibe Access Token
 - `FROM` is your sender (default: JSBMESSAGE)
 
 Resources
